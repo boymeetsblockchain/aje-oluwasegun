@@ -6,10 +6,11 @@
 
 @theme {
 	--font-sans: 'Poppins', sans-serif;
-	--color-brand-black: #190f00;
+	--color-brand-black: #151312;
 	--color-brand-grey: #353334;
 	--color-brand-orange: #f46c38;
 	--color-brand-green: #98f17c;
+	--color-brand-gray-alt: #1c1a19;
 }
 
 @layer base {
