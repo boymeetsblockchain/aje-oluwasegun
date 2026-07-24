@@ -1,5 +1,14 @@
 <script lang="ts">
-	let { bgColor = '#ffffff', title = '', description = '', href = '#', text = '' } = $props();
+	import Icon from '@iconify/svelte';
+
+	let {
+		bgColor = '#ffffff',
+		title = '',
+		description = '',
+		href = '#',
+		text = '',
+		icon = ''
+	} = $props();
 </script>
 
 <a
@@ -9,18 +18,15 @@
 >
 	<div class="flex h-full flex-col justify-between">
 		<div>
-			<h3 class="text-3xl font-bold text-white">
-				{title}
-			</h3>
+			<Icon {icon} class="text-4xl text-black" />
 
-			<p class="mt-4 text-white/80">
+			<p class="mt-4 text-white">
 				{description}
 			</p>
 		</div>
 
 		<div class="mt-8 flex items-center gap-2 text-white">
 			<span>{text}</span>
-			<!-- <span class="transition-transform group-hover:translate-x-1">→</span> -->
 		</div>
 	</div>
 </a>

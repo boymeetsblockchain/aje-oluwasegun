@@ -53,7 +53,18 @@
 		{/each}
 	</div>
 	<div class="my-10 flex gap-10">
-		<Card bgColor="#f46c38;" />
-		<Card bgColor="#98f17c" />
+		<Card
+			bgColor="#f46c38"
+			icon="lucide:code-xml"
+			description="BUILDING SCALABLE WEB APPS WITH CLEAN, MAINTAINABLE CODE"
+			text="FULLSTACK DEVELOPMENT"
+		/>
+
+		<Card
+			bgColor="#98f17c"
+			icon="lucide:rocket"
+			description="TURNING IDEAS INTO HIGH-PERFORMANCE DIGITAL PRODUCTS"
+			text="PRODUCT ENGINEERING"
+		/>
 	</div>
 </section>
