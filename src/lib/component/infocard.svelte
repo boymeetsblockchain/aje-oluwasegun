@@ -2,9 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<section
-	class="flex h-[700px] w-full flex-col rounded-3xl bg-white p-8 text-brand-black shadow-2xl"
->
+<section class="flex h-175 w-full flex-col rounded-3xl bg-white p-8 text-brand-black shadow-2xl">
 	<!-- Image -->
 	<div class="flex flex-col items-center">
 		<div class="overflow-hidden rounded-2xl border-4 border-gray-100 shadow-lg">
@@ -24,7 +22,7 @@
 
 	<!-- Bio -->
 	<div class="mt-8">
-		<p class="text-center text-lg leading-relaxed text-gray-600">
+		<p class="text-center text-lg leading-relaxed text-brand-gray-alt-v2">
 			A software engineer passionate about building scalable web applications and creating
 			innovative digital experiences.
 		</p>
