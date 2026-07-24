@@ -17,7 +17,7 @@
 
 		<h1 class="mt-6 text-center text-4xl font-extrabold">Aje Oluwasegun</h1>
 
-		<p class="mt-2 text-center text-sm font-medium tracking-wider text-orange-500 uppercase">
+		<p class="mt-2 text-center text-sm font-medium tracking-wider text-brand-orange uppercase">
 			Fullstack Engineer
 		</p>
 	</div>
@@ -57,6 +57,16 @@
 			class="group rounded-full bg-gray-100 p-3 transition-all duration-300 hover:-translate-y-2 hover:bg-[#0077B5]"
 		>
 			<Icon icon="mdi:linkedin" width="24" class="transition-colors group-hover:text-white" />
+		</a>
+		<a
+			href="mailto:contact@ajeoluwasegun.com"
+			class="group flex items-center gap-3 rounded-xl bg-gray-100 px-4 py-3 text-brand-black transition-all duration-300 hover:-translate-y-1 hover:bg-brand-black hover:text-white"
+		>
+			<Icon
+				icon="lucide:mail"
+				width="20"
+				class="transition-transform duration-300 group-hover:scale-110"
+			/>
 		</a>
 	</div>
 </section>
