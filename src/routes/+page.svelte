@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Card from '$lib/component/card.svelte';
+	import Project from '$lib/component/project.svelte';
 
 	const stats = [
 		{
@@ -80,4 +81,5 @@
 			PROJECT
 		</h1>
 	</div>
+	<Project />
 </section>

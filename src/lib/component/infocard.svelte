@@ -1,5 +1,6 @@
 <script>
 	import Icon from '@iconify/svelte';
+	import me from '$lib/assets/me.png';
 </script>
 
 <section class="flex h-175 w-full flex-col rounded-3xl bg-white p-8 text-brand-black shadow-2xl">
@@ -7,7 +8,7 @@
 	<div class="flex flex-col items-center">
 		<div class="overflow-hidden rounded-2xl border-4 border-gray-100 shadow-lg">
 			<img
-				src="/me.png"
+				src={me}
 				alt="Aje Oluwasegun"
 				class="h-72 w-72 object-cover transition duration-500 hover:scale-105"
 			/>
