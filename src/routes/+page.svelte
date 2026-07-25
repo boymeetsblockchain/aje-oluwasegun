@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Card from '$lib/component/card.svelte';
+	import Contact from '$lib/component/contact.svelte';
 	import Experience from '$lib/component/experience.svelte';
 	import Project from '$lib/component/project.svelte';
 	import Tools from '$lib/component/tools.svelte';
@@ -76,4 +77,5 @@
 
 	<Experience />
 	<Tools />
+	<Contact />
 </section>
