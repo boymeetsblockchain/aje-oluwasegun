@@ -22,6 +22,26 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>Aje Oluwasegun | Software Engineer</title>
+	<meta
+		name="description"
+		content="Aje Oluwasegun is a software engineer building modern web and mobile products with scalable architecture and polished user experiences."
+	/>
+	<meta name="robots" content="index,follow" />
+	<link rel="canonical" href="https://ajeoluwasegun.com" />
+	<meta property="og:title" content="Aje Oluwasegun | Software Engineer" />
+	<meta
+		property="og:description"
+		content="Software engineer focused on building high-quality digital products and scalable platforms."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://ajeoluwasegun.com" />
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:title" content="Aje Oluwasegun | Software Engineer" />
+	<meta
+		property="twitter:description"
+		content="Software engineer focused on building high-quality digital products and scalable platforms."
+	/>
 </svelte:head>
 
 <div class="min-h-screen bg-black">

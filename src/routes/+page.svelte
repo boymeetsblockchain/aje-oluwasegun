@@ -23,6 +23,16 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Aje Oluwasegun | Software Engineer</title>
+	<meta
+		name="description"
+		content="Aje Oluwasegun is a software engineer building modern web and mobile products with scalable architecture and polished user experiences."
+	/>
+	<meta name="robots" content="index,follow" />
+	<link rel="canonical" href="https://ajeoluwasegun.com" />
+</svelte:head>
+
 <section class="reveal p-4 sm:p-10">
 	<div class="text-center md:text-left">
 		<h1
