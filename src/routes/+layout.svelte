@@ -12,17 +12,18 @@
 </svelte:head>
 
 <div class="min-h-screen bg-black">
-	<nav class="grid place-items-center py-10">
+	<nav class="grid place-items-center px-4 py-6 sm:px-6 sm:py-10">
 		<Navbar />
 	</nav>
-	<div class="mx-auto flex max-w-7xl">
+
+	<div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 pb-8 sm:px-6 lg:flex-row lg:px-8">
 		<!-- Left Fixed/Sticky Card -->
-		<aside class="sticky top-0 h-screen w-95 shrink-0 p-6">
+		<aside class="w-full lg:sticky lg:top-0 lg:h-screen lg:w-95 lg:shrink-0 lg:p-6">
 			<Infocard />
 		</aside>
 
 		<!-- Scrollable Content -->
-		<main class="min-h-screen flex-1 px-6 py-8">
+		<main class="min-h-screen flex-1 py-2 lg:px-6 lg:py-8">
 			{@render children()}
 		</main>
 	</div>
