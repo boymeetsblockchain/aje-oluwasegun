@@ -58,7 +58,7 @@
 	</div>
 	{#each experiences as experience}
 		<div
-			class="group rounded-[14px] p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-[#171717]"
+			class="group rounded-[14px] p-5 transition-all duration-300 hover:-translate-y-1 hover:bg-[#171717] sm:p-8"
 		>
 			<div class="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
 				<!-- Content -->
@@ -78,7 +78,7 @@
 
 				<!-- Period -->
 				<div
-					class="shrink-0 rounded-full border border-white/10 px-4 py-2 text-sm font-medium text-zinc-500"
+					class="shrink-0 rounded-full border border-white/10 px-4 py-2 text-sm font-medium text-zinc-500 sm:mt-0"
 				>
 					{experience.period}
 				</div>

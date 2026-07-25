@@ -23,28 +23,30 @@
 	];
 </script>
 
-<section class="p-10">
+<section class="p-4 sm:p-10">
 	<div>
 		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase lg:text-9xl"
+			class="text-4xl leading-none font-black tracking-[-0.08em] text-white uppercase sm:text-6xl lg:text-9xl"
 		>
 			SOFTWARE
 		</h1>
 
 		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase lg:text-9xl"
+			class="text-4xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase sm:text-6xl lg:text-9xl"
 		>
 			ENGINEER
 		</h1>
 	</div>
 	<div>
-		<p class="text-left text-lg leading-relaxed text-brand-gray-alt-v2">
+		<p class="text-left text-base leading-relaxed text-brand-gray-alt-v2 sm:text-lg">
 			Passionate about creating intuitive and engaging user experiences. Specialize in transforming
 			ideas into beautifully crafted products.
 		</p>
 	</div>
 
-	<div class="mt-12 grid grid-cols-3 gap-8 border-t border-white/10 pt-8">
+	<div
+		class="mt-8 grid grid-cols-1 gap-6 border-t border-white/10 pt-8 sm:mt-12 sm:grid-cols-3 sm:gap-8"
+	>
 		{#each stats as stat}
 			<div class="text-left">
 				<h3 class="text-4xl font-extrabold text-white lg:text-5xl">
@@ -57,7 +59,7 @@
 			</div>
 		{/each}
 	</div>
-	<div class="my-10 flex gap-10">
+	<div class="my-10 flex flex-col gap-4 sm:flex-row sm:gap-10">
 		<Card
 			bgColor="#f46c38"
 			icon="lucide:code-xml"

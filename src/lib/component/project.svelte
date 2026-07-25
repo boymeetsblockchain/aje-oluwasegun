@@ -37,13 +37,13 @@
 <section class="flex flex-col gap-6">
 	<div>
 		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase lg:text-9xl"
+			class="text-4xl leading-none font-black tracking-[-0.08em] text-white uppercase sm:text-6xl lg:text-9xl"
 		>
 			RECENT
 		</h1>
 
 		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase lg:text-9xl"
+			class="text-4xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase sm:text-6xl lg:text-9xl"
 		>
 			PROJECT
 		</h1>
@@ -53,20 +53,20 @@
 			href={project.href}
 			target="_blank"
 			rel="noopener noreferrer"
-			class="group flex items-center gap-8 rounded-[14px] p-5 transition-all duration-300 hover:bg-[#171717]"
+			class="group flex flex-col gap-4 rounded-[14px] p-4 transition-all duration-300 hover:bg-[#171717] sm:flex-row sm:items-center sm:gap-8 sm:p-5"
 		>
 			<!-- Image -->
-			<div class="overflow-hidden rounded-xl">
+			<div class="mx-auto overflow-hidden rounded-xl sm:mx-0">
 				<img
 					src={project.img}
 					alt={project.name}
-					class="h-40 w-40 object-cover transition duration-500 group-hover:scale-105"
+					class="h-24 w-24 object-cover transition duration-500 group-hover:scale-105 sm:h-40 sm:w-40"
 				/>
 			</div>
 
 			<!-- Content -->
-			<div class="flex-1">
-				<h3 class="text-2xl font-bold text-white transition-colors duration-300">
+			<div class="flex-1 text-center sm:text-left">
+				<h3 class="text-xl font-bold text-white transition-colors duration-300 sm:text-2xl">
 					{project.name}
 				</h3>
 
@@ -77,7 +77,7 @@
 
 			<!-- Arrow -->
 			<div
-				class="flex h-12 w-12 items-center justify-center rounded-full text-brand-orange transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
+				class="mx-auto flex h-10 w-10 items-center justify-center rounded-full text-brand-orange transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 sm:mx-0 sm:h-12 sm:w-12"
 			>
 				<Icon icon="lucide:arrow-up-right" width="16" />
 			</div>
