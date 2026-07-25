@@ -15,10 +15,6 @@
 		</div>
 
 		<h1 class="mt-6 text-center text-4xl font-extrabold">Aje Oluwasegun</h1>
-
-		<p class="mt-2 text-center text-sm font-medium tracking-wider text-brand-orange uppercase">
-			Fullstack Engineer
-		</p>
 	</div>
 
 	<!-- Bio -->
