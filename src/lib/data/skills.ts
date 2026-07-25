@@ -61,7 +61,7 @@ export const coreSkills = [
 	},
 	{
 		name: 'Gin',
-		icon: 'simple-icons:gin',
+		icon: 'logos:gin',
 		description: 'Lightweight and efficient Go web APIs'
 	},
 	{

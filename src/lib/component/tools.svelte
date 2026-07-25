@@ -4,6 +4,19 @@
 </script>
 
 <section class="my-20">
+	<div>
+		<h1
+			class="text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase lg:text-9xl"
+		>
+			CORE
+		</h1>
+
+		<h1
+			class="text-6xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase lg:text-9xl"
+		>
+			TOOLS
+		</h1>
+	</div>
 	<div class="grid gap-x-20 gap-y-10 md:grid-cols-2">
 		{#each coreSkills as skill}
 			<div class="flex items-center gap-5">
