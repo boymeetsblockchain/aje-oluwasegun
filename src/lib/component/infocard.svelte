@@ -3,7 +3,9 @@
 	import me from '$lib/assets/me.png';
 </script>
 
-<section class="flex h-175 w-full flex-col rounded-3xl bg-white p-8 text-brand-black shadow-2xl">
+<section
+	class="flex h-auto w-full flex-col rounded-3xl bg-white p-8 text-brand-black shadow-2xl md:h-175"
+>
 	<!-- Image -->
 	<div class="flex flex-col items-center">
 		<div class="overflow-hidden rounded-2xl border-4 border-gray-100 shadow-lg">

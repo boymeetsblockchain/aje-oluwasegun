@@ -35,7 +35,7 @@
 </script>
 
 <section class="flex flex-col gap-6">
-	<div>
+	<div class="text-center md:text-left">
 		<h1
 			class="text-4xl leading-none font-black tracking-[-0.08em] text-white uppercase sm:text-6xl lg:text-9xl"
 		>
