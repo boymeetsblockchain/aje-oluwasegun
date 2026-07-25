@@ -2,6 +2,8 @@
 	import Card from '$lib/component/card.svelte';
 	import Experience from '$lib/component/experience.svelte';
 	import Project from '$lib/component/project.svelte';
+	import Tools from '$lib/component/tools.svelte';
+	import { coreSkills } from '$lib/data/skills';
 
 	const stats = [
 		{
@@ -69,33 +71,9 @@
 			text="PRODUCT ENGINEERING"
 		/>
 	</div>
-	<div>
-		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase lg:text-9xl"
-		>
-			RECENT
-		</h1>
-
-		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase lg:text-9xl"
-		>
-			PROJECT
-		</h1>
-	</div>
 
 	<Project />
-	<div>
-		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase lg:text-9xl"
-		>
-			8 YEARS OF
-		</h1>
 
-		<h1
-			class="text-6xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase lg:text-9xl"
-		>
-			EXPERIENCE
-		</h1>
-	</div>
 	<Experience />
+	<Tools />
 </section>

@@ -43,6 +43,19 @@
 </script>
 
 <section class="flex flex-col gap-6">
+	<div>
+		<h1
+			class="text-6xl leading-none font-black tracking-[-0.08em] text-white uppercase lg:text-9xl"
+		>
+			8 YEARS OF
+		</h1>
+
+		<h1
+			class="text-6xl leading-none font-black tracking-[-0.08em] text-brand-gray-alt uppercase lg:text-9xl"
+		>
+			EXPERIENCE
+		</h1>
+	</div>
 	{#each experiences as experience}
 		<div
 			class="group rounded-[14px] p-8 transition-all duration-300 hover:-translate-y-1 hover:bg-[#171717]"
