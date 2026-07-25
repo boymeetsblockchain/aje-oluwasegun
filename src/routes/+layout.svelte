@@ -3,8 +3,31 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import Infocard from '$lib/component/infocard.svelte';
 	import Navbar from '$lib/component/navbar.svelte';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
+
+	onMount(() => {
+		const elements = document.querySelectorAll<HTMLElement>('.reveal');
+
+		if (!elements.length) return;
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						entry.target.classList.add('is-visible');
+						observer.unobserve(entry.target);
+					}
+				});
+			},
+			{ threshold: 0.15 }
+		);
+
+		elements.forEach((element) => observer.observe(element));
+
+		return () => observer.disconnect();
+	});
 </script>
 
 <svelte:head>

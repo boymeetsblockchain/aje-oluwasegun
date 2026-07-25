@@ -3,7 +3,7 @@
 	import { coreSkills } from '$lib/data/skills';
 </script>
 
-<section class="my-20">
+<section class="reveal my-20">
 	<div>
 		<h1
 			class="text-4xl leading-none font-black tracking-[-0.08em] text-white uppercase sm:text-6xl lg:text-9xl"

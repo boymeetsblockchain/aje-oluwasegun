@@ -13,7 +13,7 @@
 	}
 </script>
 
-<section class="py-20">
+<section class="reveal py-20">
 	<!-- Heading -->
 	<div class="mb-16">
 		<h1
