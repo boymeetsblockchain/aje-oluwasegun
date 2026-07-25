@@ -17,9 +17,11 @@
 			TOOLS
 		</h1>
 	</div>
-	<div class="mt-8 grid gap-x-20 gap-y-10 md:grid-cols-2">
+	<div class="mt-8 grid grid-cols-2 gap-6 sm:gap-8">
 		{#each coreSkills as skill}
-			<div class="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-5">
+			<div
+				class="flex flex-col items-center gap-3 text-center sm:flex-row sm:items-center sm:text-left"
+			>
 				<div
 					class="flex h-14 w-14 items-center justify-center rounded-2xl bg-white sm:h-18 sm:w-18"
 				>
@@ -27,11 +29,11 @@
 				</div>
 
 				<div>
-					<h3 class="text-2xl font-bold text-white sm:text-3xl">
+					<h3 class="text-lg font-bold text-white sm:text-2xl">
 						{skill.name}
 					</h3>
 
-					<p class="text-base text-zinc-500 sm:text-lg">
+					<p class="hidden text-zinc-500 lg:block">
 						{skill.description}
 					</p>
 				</div>
