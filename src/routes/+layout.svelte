@@ -8,25 +8,15 @@
 	let { children } = $props();
 
 	onMount(() => {
-		const elements = document.querySelectorAll<HTMLElement>('.reveal');
+		const elements = Array.from(document.querySelectorAll<HTMLElement>('.reveal'));
 
 		if (!elements.length) return;
 
-		const observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						entry.target.classList.add('is-visible');
-						observer.unobserve(entry.target);
-					}
-				});
-			},
-			{ threshold: 0.15 }
-		);
-
-		elements.forEach((element) => observer.observe(element));
-
-		return () => observer.disconnect();
+		elements.forEach((element, index) => {
+			window.setTimeout(() => {
+				element.classList.add('is-visible');
+			}, index * 220);
+		});
 	});
 </script>
 

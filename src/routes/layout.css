@@ -23,10 +23,10 @@
 @layer utilities {
 	.reveal {
 		opacity: 0;
-		transform: translateY(16px);
+		transform: translateY(12px);
 		transition:
-			opacity 600ms ease,
-			transform 600ms ease;
+			opacity 800ms ease,
+			transform 800ms ease;
 	}
 
 	.reveal.is-visible {
