@@ -13,7 +13,7 @@
 	async function handleSubmit() {
 		status = 'loading';
 		try {
-			const res = await fetch('https://formspree.io/f/contact@ajeoluwasegun.com', {
+			const res = await fetch('https://formspree.io/f/meajkzzb', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
 				body: JSON.stringify(form)
@@ -58,7 +58,7 @@
 			class="flex flex-col items-center gap-4 rounded-[14px] border border-brand-green/20 bg-brand-green/5 p-12 text-center"
 		>
 			<div
-				class="flex h-14 w-14 items-center justify-center rounded-full bg-brand-green/15 text-brand-green text-2xl"
+				class="flex h-14 w-14 items-center justify-center rounded-full bg-brand-green/15 text-2xl text-brand-green"
 			>
 				✓
 			</div>
@@ -146,11 +146,11 @@
 			</div>
 
 			{#if status === 'error'}
-				<p class="rounded-[14px] border border-red-500/20 bg-red-500/5 px-5 py-3 text-sm text-red-400">
+				<p
+					class="rounded-[14px] border border-red-500/20 bg-red-500/5 px-5 py-3 text-sm text-red-400"
+				>
 					Something went wrong. Please try emailing me directly at
-					<a href="mailto:contact@ajeoluwasegun.com" class="underline"
-						>contact@ajeoluwasegun.com</a
-					>
+					<a href="mailto:contact@ajeoluwasegun.com" class="underline">contact@ajeoluwasegun.com</a>
 				</p>
 			{/if}
 
