@@ -20,7 +20,7 @@
 		},
 		{
 			role: 'Mobile Developer (Contract)',
-			company: 'Pretoria Consulting',
+			company: 'INhouz cloud',
 			companyUrl: '',
 			period: 'Jan 2026 – Jun 2026',
 			badge: '',
@@ -78,7 +78,9 @@
 			<div class="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
 				<!-- Content -->
 				<div class="flex-1">
-					<h3 class="text-2xl font-bold text-white group-hover:text-brand-orange transition-colors duration-300 lg:text-3xl">
+					<h3
+						class="text-2xl font-bold text-white transition-colors duration-300 group-hover:text-brand-orange lg:text-3xl"
+					>
 						{experience.role}
 					</h3>
 
@@ -88,7 +90,7 @@
 								href={experience.companyUrl}
 								target="_blank"
 								rel="noopener noreferrer"
-								class="hover:text-brand-orange transition-colors duration-200 underline decoration-white/20 underline-offset-4 hover:decoration-brand-orange"
+								class="underline decoration-white/20 underline-offset-4 transition-colors duration-200 hover:text-brand-orange hover:decoration-brand-orange"
 							>
 								{experience.company}
 							</a>

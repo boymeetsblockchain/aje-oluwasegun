@@ -12,7 +12,7 @@
 			<img
 				src={me}
 				alt="Aje Oluwasegun"
-				class="h-72 w-72 object-cover transition duration-500 hover:scale-105"
+				class="h-60 w-60 object-cover transition duration-500 hover:scale-105"
 			/>
 		</div>
 
@@ -25,29 +25,9 @@
 	<!-- Bio -->
 	<div class="mt-6">
 		<p class="text-center text-base leading-relaxed text-brand-gray-alt-v2">
-			Fullstack & mobile engineer with 8+ years building scalable products across fintech, logistics,
-			healthcare, and Web3 — from microservices to polished mobile UIs.
+			Fullstack & mobile engineer with 8+ years building scalable products across fintech,
+			logistics, healthcare, and Web3, from microservices to polished mobile UIs.
 		</p>
-	</div>
-
-	<!-- Quick info -->
-	<div class="mt-6 flex flex-col gap-3 border-t border-gray-100 pt-6">
-		<div class="flex items-center gap-3 text-sm text-zinc-500">
-			<Icon icon="lucide:map-pin" width="16" class="shrink-0 text-brand-orange" />
-			<span>Benin City, Nigeria</span>
-		</div>
-		<div class="flex items-center gap-3 text-sm text-zinc-500">
-			<Icon icon="lucide:briefcase" width="16" class="shrink-0 text-brand-orange" />
-			<span>Open to freelance & full-time roles</span>
-		</div>
-		<div class="flex items-center gap-3 text-sm text-zinc-500">
-			<Icon icon="lucide:mail" width="16" class="shrink-0 text-brand-orange" />
-			<a
-				href="mailto:contact@ajeoluwasegun.com"
-				class="hover:text-brand-black transition-colors duration-200"
-				>contact@ajeoluwasegun.com</a
-			>
-		</div>
 	</div>
 
 	<!-- Socials -->
