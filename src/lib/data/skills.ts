@@ -10,6 +10,11 @@ export const coreSkills = [
 		description: 'Interactive User Interfaces'
 	},
 	{
+		name: 'React Native',
+		icon: 'logos:react',
+		description: 'Cross-Platform Mobile Apps'
+	},
+	{
 		name: 'SvelteKit',
 		icon: 'logos:svelte-icon',
 		description: 'Lightning-Fast Web Applications'

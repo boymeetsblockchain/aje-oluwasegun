@@ -8,17 +8,16 @@
 
 	const stats = [
 		{
-			no: '+12',
-			title: 'YEARS OF EXPERIENCE'
+			no: '8+',
+			title: 'Years of Experience'
 		},
 		{
-			no: '+40',
-			title: 'No of Projects'
+			no: '40+',
+			title: 'Projects Shipped'
 		},
 		{
-			no: +20,
-
-			title: 'WORLDWIDE CLIENTS'
+			no: '20+',
+			title: 'Worldwide Clients'
 		}
 	];
 </script>
@@ -47,10 +46,11 @@
 			ENGINEER
 		</h1>
 	</div>
-	<div>
+	<div class="mt-6 max-w-xl">
 		<p class="text-left text-base leading-relaxed text-brand-gray-alt-v2 sm:text-lg">
-			Passionate about creating intuitive and engaging user experiences. Specialize in transforming
-			ideas into beautifully crafted products.
+			Fullstack & mobile engineer based in Nigeria. I architect microservices, build cross-platform
+			apps, and turn ambitious ideas into high-performance digital products that real people use every
+			day.
 		</p>
 	</div>
 
@@ -73,14 +73,14 @@
 		<Card
 			bgColor="#f46c38"
 			icon="lucide:code-xml"
-			description="BUILDING SCALABLE WEB APPS WITH CLEAN, MAINTAINABLE CODE"
+			description="BUILDING SCALABLE WEB & MOBILE APPS WITH CLEAN, MAINTAINABLE CODE"
 			text="FULLSTACK DEVELOPMENT"
 		/>
 
 		<Card
 			bgColor="#98f17c"
 			icon="lucide:rocket"
-			description="TURNING IDEAS INTO HIGH-PERFORMANCE DIGITAL PRODUCTS"
+			description="TURNING IDEAS INTO HIGH-PERFORMANCE DIGITAL PRODUCTS — FROM MVP TO SCALE"
 			text="PRODUCT ENGINEERING"
 		/>
 	</div>

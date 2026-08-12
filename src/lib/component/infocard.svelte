@@ -17,32 +17,57 @@
 		</div>
 
 		<h1 class="mt-6 text-center text-4xl font-extrabold">Aje Oluwasegun</h1>
-	</div>
-
-	<!-- Bio -->
-	<div class="mt-8">
-		<p class="text-center text-lg leading-relaxed text-brand-gray-alt-v2">
-			A software engineer passionate about building scalable web applications and creating
-			innovative digital experiences.
+		<p class="mt-1 text-center text-sm font-semibold tracking-widest text-zinc-400 uppercase">
+			Software Engineer
 		</p>
 	</div>
 
+	<!-- Bio -->
+	<div class="mt-6">
+		<p class="text-center text-base leading-relaxed text-brand-gray-alt-v2">
+			Fullstack & mobile engineer with 8+ years building scalable products across fintech, logistics,
+			healthcare, and Web3 — from microservices to polished mobile UIs.
+		</p>
+	</div>
+
+	<!-- Quick info -->
+	<div class="mt-6 flex flex-col gap-3 border-t border-gray-100 pt-6">
+		<div class="flex items-center gap-3 text-sm text-zinc-500">
+			<Icon icon="lucide:map-pin" width="16" class="shrink-0 text-brand-orange" />
+			<span>Benin City, Nigeria</span>
+		</div>
+		<div class="flex items-center gap-3 text-sm text-zinc-500">
+			<Icon icon="lucide:briefcase" width="16" class="shrink-0 text-brand-orange" />
+			<span>Open to freelance & full-time roles</span>
+		</div>
+		<div class="flex items-center gap-3 text-sm text-zinc-500">
+			<Icon icon="lucide:mail" width="16" class="shrink-0 text-brand-orange" />
+			<a
+				href="mailto:contact@ajeoluwasegun.com"
+				class="hover:text-brand-black transition-colors duration-200"
+				>contact@ajeoluwasegun.com</a
+			>
+		</div>
+	</div>
+
 	<!-- Socials -->
-	<div class="mt-auto flex justify-center gap-5">
+	<div class="mt-auto flex flex-wrap justify-center gap-3 pt-6">
 		<a
 			href="https://github.com/boymeetsblockchain"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="group rounded-full bg-gray-100 p-3 transition-all duration-300 hover:-translate-y-2 hover:bg-black"
+			aria-label="GitHub"
 		>
 			<Icon icon="mdi:github" width="24" class="transition-colors group-hover:text-white" />
 		</a>
 
 		<a
-			href="https://x.com"
+			href="https://x.com/ajeoluwasegun"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="group rounded-full bg-gray-100 p-3 transition-all duration-300 hover:-translate-y-2 hover:bg-black"
+			aria-label="Twitter / X"
 		>
 			<Icon icon="ri:twitter-x-line" width="24" class="transition-colors group-hover:text-white" />
 		</a>
@@ -52,18 +77,17 @@
 			target="_blank"
 			rel="noopener noreferrer"
 			class="group rounded-full bg-gray-100 p-3 transition-all duration-300 hover:-translate-y-2 hover:bg-[#0077B5]"
+			aria-label="LinkedIn"
 		>
 			<Icon icon="mdi:linkedin" width="24" class="transition-colors group-hover:text-white" />
 		</a>
+
 		<a
 			href="mailto:contact@ajeoluwasegun.com"
-			class="group flex items-center gap-3 rounded-xl bg-gray-100 px-4 py-3 text-brand-black transition-all duration-300 hover:-translate-y-1 hover:bg-brand-black hover:text-white"
+			class="group flex items-center gap-2 rounded-xl bg-brand-orange px-4 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#ff7c4d]"
 		>
-			<Icon
-				icon="lucide:mail"
-				width="20"
-				class="transition-transform duration-300 group-hover:scale-110"
-			/>
+			<Icon icon="lucide:mail" width="16" />
+			Hire Me
 		</a>
 	</div>
 </section>
